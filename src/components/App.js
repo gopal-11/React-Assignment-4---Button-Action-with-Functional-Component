@@ -9,7 +9,7 @@ const handleClick=()=>{
 }
   return (
     <div id="main">
-      <button onClick={handleClick}>click me</button>
+      <button id="click" onClick={handleClick}>click me</button>
       {flag?(
           <p id="para">
             Hello, I've learnt to use the full-stack evaluation tool. This makes
